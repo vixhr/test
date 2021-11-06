@@ -107,15 +107,13 @@ a {
     top: 35%;
 }
 
-.unit-pkpk {
+.unit-pkpk, .unit-hapiara, .unit-pm, .unit-m4, .unit-rondo, .unit-ll {
     position: absolute;
     top: 1.5%;
     left: 2%;
     width: 25px;
     height: 25px;
 }
-
-
 .unit-hapiara {
     background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/unit/unit_1.png);
     background-size: contain;
