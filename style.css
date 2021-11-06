@@ -18,3 +18,7 @@ body {
   margin:0;
     font-family:Noto Sans JP;
 }
+
+.content {
+    margin:8px 30px;
+}
