@@ -22,3 +22,77 @@ body {
 .content {
     margin:8px 30px;
 }
+
+/**********/
+
+.thumb:hover {
+    transform:scale(0.375);
+}
+
+.thumb {
+    display: inline-block;
+    position: relative;
+    transition:0.15s ease all;
+}
+
+.frame3 {
+    position: absolute;
+    background: url(https://www.d4db.xyz/assets/chara/icon/frame3.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.attr-street {
+    position: absolute;
+    top: 1.5%;
+    right: 1%;
+    width: 25px;
+    height: 25px;
+}
+
+.attr-street {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_street.png);
+    background-size: cover;
+}
+
+.star-01, .star-02, .star-03, .star-04 {
+    position: absolute;
+    left: 2.5%;
+    width: 18.75px;
+    height: 18.75px;
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/rarity/normal.png);
+    background-size: contain;
+}
+
+.star-01 {
+    top: 80%;
+}
+
+.star-02 {
+    top: 65%;
+}
+
+.star-03 {
+    top: 50%;
+}
+
+.star-04 {
+    top: 35%;
+}
+
+.unit-pkpk {
+    position: absolute;
+    top: 1.5%;
+    left: 2%;
+    width: 25px;
+    height: 25px;
+}
+
+.unit-pkpk {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/unit/unit_2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
