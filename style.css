@@ -51,6 +51,16 @@ a {
     left: 0;
 }
 
+.frame4 {
+    position: absolute;
+    background: url(https://www.d4db.xyz/assets/chara/icon/frame4.png);
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
 .attr-street {
     position: absolute;
     top: 1.5%;
