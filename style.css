@@ -41,28 +41,19 @@ a {
     height:100px;
     margin: 0 5px 5px 0;
 }
-
-.frame3 {
-    position: absolute;
-    background: url(https://www.d4db.xyz/assets/chara/icon/frame3.png);
+.frame4, .frame3, .frame2 {
+    position:absolute;
     background-size: cover;
     width: 100px;
     height: 100px;
     top: 0;
     left: 0;
 }
+.frame3 {    background: url(https://www.d4db.xyz/assets/chara/icon/frame3.png);}
+.frame4 {     background: url(https://www.d4db.xyz/assets/chara/icon/frame4.png);}
+.frame2 {    background: url(https://www.d4db.xyz/assets/chara/icon/frame2.png);}
 
-.frame4 {
-    position: absolute;
-    background: url(https://www.d4db.xyz/assets/chara/icon/frame4.png);
-    background-size: cover;
-    width: 100px;
-    height: 100px;
-    top: 0;
-    left: 0;
-}
-
-.attr-street {
+.attr-street, .attr-cool, .attr-party, .attr-elegant, .attr-cute {
     position: absolute;
     top: 1.5%;
     right: 1%;
@@ -72,6 +63,22 @@ a {
 
 .attr-street {
     background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_street.png);
+    background-size: cover;
+}
+.attr-cool {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_cool.png);
+    background-size: cover;
+}
+.attr-party {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_party.png);
+    background-size: cover;
+}
+.attr-elegant {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_elegant.png);
+    background-size: cover;
+}
+.attr-cute {
+    background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/type/icon_cute.png);
     background-size: cover;
 }
 
