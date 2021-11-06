@@ -39,6 +39,7 @@ a {
     transition:0.2s ease all;
     width:100px;
     height:100px;
+    margin: 0 5px 5px 0;
 }
 
 .frame3 {
