@@ -26,13 +26,15 @@ body {
 /**********/
 
 .thumb:hover {
-    transform:scale(0.375);
+    transform:scale(1.375);
 }
 
 .thumb {
     display: inline-block;
     position: relative;
     transition:0.15s ease all;
+    width:100px;
+    height:100px;
 }
 
 .frame3 {
@@ -95,4 +97,9 @@ body {
     background: url(https://raw.githubusercontent.com/RayFirefist/D4DB/master/public/assets/chara/unit/unit_2.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+img.thumb-img {
+    height: 100px;
+    border-radius:8px;
 }
